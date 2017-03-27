@@ -1,4 +1,4 @@
-ExplainToMeChrome
+[ExplainToMeChrome](https://chrome.google.com/webstore/detail/explaintome/ijnhmbgbcbnfnbbphjmfpeandhhanmlh)
 =================
 Chrome extension for [`ExplainToMe`](https://explaintome.herokuapp.com) automatic web article summarizer.
 
@@ -12,7 +12,3 @@ a graph based algorithm to scans through the contents of a website to
 extract a concise machine generated summary. The methodology is similar
 to the way search engines return the most relevant web pages from a
 users search query.
-
-# Coming Soon: Under Construction
-
-This should be on the Chrome Web Store Soon
