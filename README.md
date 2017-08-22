@@ -1,4 +1,4 @@
-[ExplainToMeChrome](https://chrome.google.com/webstore/detail/explaintome/ijnhmbgbcbnfnbbphjmfpeandhhanmlh)
+[explaintome-extension](https://chrome.google.com/webstore/detail/explaintome/ijnhmbgbcbnfnbbphjmfpeandhhanmlh)
 =================
 Chrome extension for [`ExplainToMe`](https://explaintome.herokuapp.com) automatic web article summarizer.
 
