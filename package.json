@@ -1,0 +1,49 @@
+{
+    "name": "explaintome-extension",
+    "version": "0.3.0",
+    "description": "browser extension for the ExplainToMe automatic web article summarizer.",
+    "main": "src/background.js",
+    "author": "Sang Han",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/jjangsangy/ExplainToMeChrome/issues"
+    },
+    "engines": {
+        "chrome": ">=55",
+        "firefox": ">=45"
+    },
+    "homepage": "https://github.com/jjangsangy/ExplainToMeChrome#readme",
+    "bundleDependencies": {
+        "web-ext": "^2.0.0"
+    },
+    "prefix": "./src",
+    "config": {
+        "src": "src"
+    },
+    "scripts": {
+        "prepublish": "npm install -g web-ext && mkdir -p build",
+        "publish": "web-ext sign -s src -a build",
+        "start": "web-ext run -s src -a build",
+        "test": "web-ext lint -s src -a build"
+    },
+    "browser": [
+        "chrome",
+        "firefox"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jjangsangy/ExplainToMeChrome.git"
+    },
+    "private": false,
+    "keywords": [
+        "NLP",
+        "Chrome",
+        "Browser Extension",
+        "Firefox",
+        "Summarizer",
+        "TextRank"
+    ],
+    "dependencies": {
+        "web-ext": "^2.0.0"
+    }
+}
