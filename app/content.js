@@ -1,4 +1,3 @@
-runtime.onMessage.addListener(function(message, sender, sendResponse) {
-	console.log('hi')
+runtime.onMessage.addListener(function (message, sender, sendResponse) {
 	window.open('https://explaintome.herokuapp.com?q=' + message.url);
 });
